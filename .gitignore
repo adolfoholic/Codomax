@@ -1,0 +1,33 @@
+# Codomax - do not publish local virtual machines or secrets
+# VMware virtual machine and installer artifacts
+Module 2/VM/
+**/VM/
+*.vmdk
+*.vmx
+*.vmxf
+*.nvram
+*.vmsd
+*.vmsn
+*.vmem
+*.vmss
+*.iso
+*.ova
+*.ovf
+
+# Private credentials and secrets
+*.pem
+*.key
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+.env
+.env.*
+*.pfx
+*.p12
+
+# Local temporary files
+*.swp
+*.tmp
+.DS_Store
+Thumbs.db
